@@ -1,0 +1,29 @@
+{
+  "name": "crudnode",
+  "version": "1.0.0",
+  "description": "Teste crud em nodejs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./bin/server.js",
+    "docker:build": "docker build -f ./dockerfile . "
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "debug": "^4.3.3",
+    "express": "^4.17.2",
+    "guid": "0.0.12",
+    "http": "0.0.1-security",
+    "jsonwebtoken": "^8.5.1",
+    "md5": "^2.3.0",
+    "mongodb": "^4.2.2",
+    "mongoose": "^6.1.2",
+    "node-cron": "^3.0.0",
+    "node-schedule": "^2.1.0",
+    "sendgrid": "^5.2.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
