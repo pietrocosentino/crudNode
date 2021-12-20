@@ -1,4 +1,4 @@
-Utilizado servidor Web com o "Normalizando" para habilitar porta dinâmica.
+Utilizado servidor web com o "normalizePort" para habilitar porta dinâmica.
 
 Nodemon para automatizar a aplicação.
 
